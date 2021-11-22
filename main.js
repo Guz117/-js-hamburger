@@ -13,3 +13,5 @@ hamburger.addEventListener('click', function() {
 x.addEventListener('click', function() {
     menu.classList.remove('active')
 });
+
+
