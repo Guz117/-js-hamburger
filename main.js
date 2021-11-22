@@ -7,6 +7,7 @@ console.log(menu);
 let x = document.querySelector('.hamburger-menu a i');
 console.log(x);
 
+
 hamburger.addEventListener('click', function() {
     menu.classList.add('active')
 });
