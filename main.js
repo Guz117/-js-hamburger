@@ -1,14 +1,15 @@
-let hamburgerMenuAddRemove= document.getElementsByClassName('hamburger-menu');
+let hamburger = document.querySelector('.header-right a i');
+console.log(hamburger);
 
 let menu = document.querySelector('.hamburger-menu');
+console.log(menu);
 
-hamburgerMenuAddRemove.addEventListener('click', function () {
-    let classHamburger = menu.className;
-    console.log(classHamburger);
-  
-    if (classHamburger == ".hamburger-menu") {
-        hamburgerMenu.classList.remove('.hamburger-menu');
-    } else {
-      hamburgerMenu.classList.add('.hamburger-menu');
-    }
-  });
+let x = document.querySelector('.hamburger-menu a i');
+console.log(x);
+
+hamburger.addEventListener('click', function() {
+    menu.classList.add('active')
+});
+x.addEventListener('click', function() {
+    menu.classList.remove('active')
+});
